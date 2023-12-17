@@ -22,14 +22,15 @@ const About = () => {
       </header>
       <main className="w-[1400px] mx-auto">
         <section>
-          <div className="h-full w-full">
-            <img src="/imgAbout/ss1.png" alt="" />
-            <div className="">
-              <h1 className=" inset-y-1/2 inset-x-1/3 absolute text-center text-6xl font-normal ">
-                We believe we can all make a difference.
-              </h1>
-              <div>
-                <h3 className=" inset-y-3/4 pt-4 inset-x-1/3 absolute text-xl font-bold text-center">
+          <div className="h-[691px] w-[1400px] bg-[url('/imgAbout/ss1.png')] bg-no-repeat bg-cover">
+            <div className="w-[448px] h-[419px]  pt-[10%] mx-auto">
+              <div className="w-full h-[336px] ">
+                <h1 className=" text-center text-7xl font-normal ">
+                  We believe we can all make a difference.
+                </h1>
+              </div>
+              <div className="w-full h-[67px]">
+                <h3 className=" text-2xl font-bold text-center">
                   Our way: Exceptional quality. Ethical factories. Radical
                   Transparency.
                 </h3>
@@ -126,39 +127,27 @@ const About = () => {
           </div>
         </section>
         <section className="w-full">
-          <div className="py-[82px] px-[200px] mx-auto">
-            <div className="pb-5 w-[1000px]">
+          <div className="py-[82px]  px-[200px]">
+            <div className="pb-5 w-[1000px] ">
               <h1 className="text-center text-3xl font-normal ">
                 More to Explore
               </h1>
             </div>
-            <div className="flex ">
-              <div className="">
-                <img
-                  src="/imgAbout/ss6-1.png"
-                  alt="ss6"
-                  className="w-[320px] h-[195px]"
-                />
+            <div className="flex w-[1000px] h-[229px]">
+              <div className="w-[320px] h-[195px]">
+                <img src="/imgAbout/ss6-1.png" alt="ss6" className="w-full" />
                 <h4 className="text-center pt-2.5 font-semibold text-base">
                   Our Products
                 </h4>
               </div>
-              <div className="px-5">
-                <img
-                  src="/imgAbout/ss6-2.png"
-                  alt="ss6"
-                  className="w-[320px] h-[195px]"
-                />
+              <div className="w-[320px] h-[195px]">
+                <img src="/imgAbout/ss6-2.png" alt="ss6" className="w-full" />
                 <h4 className="text-center pt-2.5 font-semibold text-base">
                   Our Stores
                 </h4>
               </div>
-              <div>
-                <img
-                  src="/imgAbout/ss6-3.png"
-                  alt="ss6"
-                  className="w-[320px] h-[195px]"
-                />
+              <div className="w-[320px] h-[195px]">
+                <img src="/imgAbout/ss6-3.png" alt="ss6" className="w-full" />
                 <h4 className="text-center pt-2.5 font-semibold text-base">
                   Careers
                 </h4>
